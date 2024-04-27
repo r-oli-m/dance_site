@@ -1,0 +1,39 @@
+.whole-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align items vertically in the center */
+    align-items: center; /* Align items horizontally in the center */
+    height: 700px; /* Set a height for the container */
+    width: 500px;
+    border: 1px solid #ccc; 
+    background-color: rgb(39, 122, 255);
+    padding: 10px;
+}
+  
+  
+  .Card, .my_comments {
+    flex-grow: 1;
+    width: 90%;
+    background-color: rgb(39, 122, 255);
+  }
+  .title {
+    color: white;
+  }
+  
+  .my_comments {
+    background: rgb(39, 122, 255);
+  }
+  .moreButton {
+    width: 30px;
+    float: right;
+  }
+  
+  .moreButton:hover {
+    cursor: pointer;
+  }
+  
+  .image {
+    width: 290px;
+    height: auto;
+  }
+  

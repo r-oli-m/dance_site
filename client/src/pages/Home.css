@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 900px;
+    background-image: cover;
+    padding: 20px;
+    border: 1px solid rgb(255, 39, 251);
+    border-radius: 10%;
+    background-color: rgba(255, 164, 253, 0.589);
+    color: rgb(0, 98, 173);
+    box-shadow: white 0px 0px 30px;
+
+}
+img {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 29px;
+    box-shadow: rgb(255, 171, 254) 0px 0px 6px;;
+}
